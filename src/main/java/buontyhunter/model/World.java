@@ -214,7 +214,7 @@ public class World {
     }
 
     private boolean isGameInPause() {
-        return (getMiniMap() != null && getMiniMap().isShow()) || (getInventory() != null && getInventory().isShow());
+        return (getMiniMap() != null && getMiniMap().isShow()) || (getInventory() != null && getInventory().isShow()) || (getQuestJournal() != null && getQuestJournal().isShow());
     }
 
     /**
